@@ -7,7 +7,7 @@ import { withRouter } from 'react-router-dom'
 import NavBar from '../Common/Navbar'
 import Footer from '../Common/Footer'
 
-function Layout(props) {
+const Layout = (props) => {
 	return (
 		<React.Fragment>
 			<NavBar />

@@ -2,6 +2,8 @@
 
 import React from 'react'
 
-export default function PageFooter() {
+const PageFooter = () => {
 	return <h3>Este es el Footer</h3>
 }
+
+export default PageFooter
