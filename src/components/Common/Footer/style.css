@@ -1,0 +1,17 @@
+/** @format */
+
+.coder-footer-global-container {
+	background-color: #555;
+	padding: 10px;
+}
+
+.coder-footer-main-container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.coder-footer-title {
+	color: #fff;
+	margin: 0;
+}

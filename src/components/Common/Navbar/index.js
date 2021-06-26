@@ -2,8 +2,26 @@
 
 import React from 'react'
 
-const PageHome = () => {
-	return <h3>Este es el Navbar</h3>
+import Spacer from '../Spacer'
+
+import Logo from './components/Logo'
+import MainMenu from './components/MainMenu'
+
+import './style.css'
+
+const NavBar = () => {
+	return (
+		<>
+			<div className='coder-navbar-vertical-spacer'></div>
+			<div className='coder-navbar-global-container'>
+				<div className='coder-navbar-main-container'>
+					<Logo />
+					<Spacer />
+					<MainMenu />
+				</div>
+			</div>
+		</>
+	)
 }
 
-export default PageHome
+export default NavBar

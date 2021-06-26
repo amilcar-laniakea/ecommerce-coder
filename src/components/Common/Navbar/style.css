@@ -1,0 +1,27 @@
+/** @format */
+
+.coder-navbar-vertical-spacer {
+	height: 50px;
+}
+
+.coder-navbar-global-container {
+	width: 100%;
+	background-color: #ddd;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	max-height: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.coder-navbar-main-container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
