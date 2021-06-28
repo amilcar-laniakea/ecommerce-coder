@@ -30,13 +30,13 @@ const MainMenu = () => {
 				overlay={
 					<Menu onClick={() => handleCloseMenu(false)}>
 						<Menu.Item key='1'>
-							<Link to={'/categories/anime'}>Anime</Link>
+							<Link to={'/categorias/anime'}>Anime</Link>
 						</Menu.Item>
 						<Menu.Item key='2'>
-							<Link to={'/categories/ilustraciones'}>Ilustraciones</Link>
+							<Link to={'/categorias/ilustraciones'}>Ilustraciones</Link>
 						</Menu.Item>
 						<Menu.Item key='3'>
-							<Link to={'/categories/logos'}>Logos</Link>
+							<Link to={'/categorias/logos'}>Logos</Link>
 						</Menu.Item>
 					</Menu>
 				}
