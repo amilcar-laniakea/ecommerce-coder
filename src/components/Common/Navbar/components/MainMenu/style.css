@@ -8,5 +8,18 @@
 }
 
 .coder-navbar-menu-item {
-	padding: 5px;
+	font-size: 17px;
+	padding: 10px;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.coder-navbar-menu-categories-button {
+	background-color: transparent !important;
+	border: none !important;
+	color: #fff !important;
+	font-size: 17px !important;
+	font-weight: 600;
+	padding: 3px 10px;
 }

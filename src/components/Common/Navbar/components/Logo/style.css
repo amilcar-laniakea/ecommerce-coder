@@ -1,5 +1,10 @@
 /** @format */
 
-.coder-navbar-main-logo {
-	margin: 0;
+.coder-main-logo-image-container {
+	padding: 1px;
+}
+
+.coder-main-logo-image {
+	width: 100%;
+	max-width: 100px;
 }

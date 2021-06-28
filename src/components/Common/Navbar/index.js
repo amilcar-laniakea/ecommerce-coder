@@ -6,6 +6,7 @@ import Spacer from '../Spacer'
 
 import Logo from './components/Logo'
 import MainMenu from './components/MainMenu'
+import CartIcon from './components/CartIcon'
 
 import './style.css'
 
@@ -18,6 +19,7 @@ const NavBar = () => {
 					<Logo />
 					<Spacer />
 					<MainMenu />
+					<CartIcon />
 				</div>
 			</div>
 		</>

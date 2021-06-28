@@ -1,27 +1,28 @@
 /** @format */
 
 .coder-navbar-vertical-spacer {
-	height: 50px;
+	height: 65px;
 }
 
 .coder-navbar-global-container {
 	width: 100%;
-	background-color: #ddd;
+	background-color: #00364e;
 	position: fixed;
 	left: 0;
 	top: 0;
 	right: 0;
-	max-height: 50px;
-	height: 50px;
+	max-height: 65px;
+	height: 65px;
 	display: flex;
 	align-items: center;
+	overflow: hidden;
 }
 
 .coder-navbar-main-container {
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
-	padding: 10px;
+	padding: 6px;
 	display: flex;
 	align-items: center;
 }
